@@ -1,0 +1,2 @@
+void showMainFrame();
+void showGeneratorFrame();

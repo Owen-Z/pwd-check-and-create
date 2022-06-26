@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zy/Desktop/myproject/pwd-program/generator.cpp
+generator.h
+/home/zy/Desktop/myproject/pwd-program/generator.h
+iostream
+-
+
+/home/zy/Desktop/myproject/pwd-program/generator.h
+password.h
+/home/zy/Desktop/myproject/pwd-program/password.h
+
+/home/zy/Desktop/myproject/pwd-program/interface.h
+
+/home/zy/Desktop/myproject/pwd-program/main.cpp
+stdio.h
+-
+iostream
+-
+interface.h
+/home/zy/Desktop/myproject/pwd-program/interface.h
+password.h
+/home/zy/Desktop/myproject/pwd-program/password.h
+generator.h
+/home/zy/Desktop/myproject/pwd-program/generator.h
+
+/home/zy/Desktop/myproject/pwd-program/password.cpp
+stdio.h
+-
+password.h
+/home/zy/Desktop/myproject/pwd-program/password.h
+
+/home/zy/Desktop/myproject/pwd-program/password.h
+
