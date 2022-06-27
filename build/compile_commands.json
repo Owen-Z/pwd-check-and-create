@@ -23,5 +23,10 @@
   "directory": "/home/zy/Desktop/myproject/pwd-program/build",
   "command": "/usr/bin/g++    -g   -o CMakeFiles/pwd-program.dir/saver.cpp.o -c /home/zy/Desktop/myproject/pwd-program/saver.cpp",
   "file": "/home/zy/Desktop/myproject/pwd-program/saver.cpp"
+},
+{
+  "directory": "/home/zy/Desktop/myproject/pwd-program/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/pwd-program.dir/validator.cpp.o -c /home/zy/Desktop/myproject/pwd-program/validator.cpp",
+  "file": "/home/zy/Desktop/myproject/pwd-program/validator.cpp"
 }
 ]

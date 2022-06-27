@@ -13,10 +13,15 @@ CMakeFiles/pwd-program.dir/main.cpp.o: ../interface.h
 CMakeFiles/pwd-program.dir/main.cpp.o: ../main.cpp
 CMakeFiles/pwd-program.dir/main.cpp.o: ../password.h
 CMakeFiles/pwd-program.dir/main.cpp.o: ../saver.h
+CMakeFiles/pwd-program.dir/main.cpp.o: ../validator.h
 
 CMakeFiles/pwd-program.dir/password.cpp.o: ../password.cpp
 CMakeFiles/pwd-program.dir/password.cpp.o: ../password.h
 
 CMakeFiles/pwd-program.dir/saver.cpp.o: ../saver.cpp
 CMakeFiles/pwd-program.dir/saver.cpp.o: ../saver.h
+
+CMakeFiles/pwd-program.dir/validator.cpp.o: ../saver.h
+CMakeFiles/pwd-program.dir/validator.cpp.o: ../validator.cpp
+CMakeFiles/pwd-program.dir/validator.cpp.o: ../validator.h
 

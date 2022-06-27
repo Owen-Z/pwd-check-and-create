@@ -25,3 +25,7 @@ using
      #define HEADER_H
      #endif
 ```
+
+## compare char and string item
+
+string[] equivlent to a char;

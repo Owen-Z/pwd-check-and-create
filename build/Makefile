@@ -655,6 +655,33 @@ saver.cpp.s:
 	$(MAKE) -f CMakeFiles/pwd-program.dir/build.make CMakeFiles/pwd-program.dir/saver.cpp.s
 .PHONY : saver.cpp.s
 
+validator.o: validator.cpp.o
+
+.PHONY : validator.o
+
+# target to build an object file
+validator.cpp.o:
+	$(MAKE) -f CMakeFiles/pwd-program.dir/build.make CMakeFiles/pwd-program.dir/validator.cpp.o
+.PHONY : validator.cpp.o
+
+validator.i: validator.cpp.i
+
+.PHONY : validator.i
+
+# target to preprocess a source file
+validator.cpp.i:
+	$(MAKE) -f CMakeFiles/pwd-program.dir/build.make CMakeFiles/pwd-program.dir/validator.cpp.i
+.PHONY : validator.cpp.i
+
+validator.s: validator.cpp.s
+
+.PHONY : validator.s
+
+# target to generate assembly for a file
+validator.cpp.s:
+	$(MAKE) -f CMakeFiles/pwd-program.dir/build.make CMakeFiles/pwd-program.dir/validator.cpp.s
+.PHONY : validator.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -710,6 +737,9 @@ help:
 	@echo "... saver.o"
 	@echo "... saver.i"
 	@echo "... saver.s"
+	@echo "... validator.o"
+	@echo "... validator.i"
+	@echo "... validator.s"
 .PHONY : help
 
 

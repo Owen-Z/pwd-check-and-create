@@ -5,7 +5,7 @@ include(CTest)
 enable_testing()
 
 add_executable(pwd-program main.cpp generator.cpp generator.h interface.cpp interface.h 
-                    password.cpp password.h saver.h saver.cpp)
+                    password.cpp password.h saver.h saver.cpp validator.h validator.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

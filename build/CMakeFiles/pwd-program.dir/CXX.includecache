@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/zy/Desktop/myproject/pwd-program/saver.cpp
-saver.h
-/home/zy/Desktop/myproject/pwd-program/saver.h
-
 /home/zy/Desktop/myproject/pwd-program/saver.h
 string
 -
@@ -17,4 +13,16 @@ iostream
 -
 fstream
 -
+
+/home/zy/Desktop/myproject/pwd-program/validator.cpp
+validator.h
+/home/zy/Desktop/myproject/pwd-program/validator.h
+
+/home/zy/Desktop/myproject/pwd-program/validator.h
+string
+-
+iostream
+-
+saver.h
+/home/zy/Desktop/myproject/pwd-program/saver.h
 

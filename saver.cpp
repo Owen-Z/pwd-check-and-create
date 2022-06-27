@@ -1,4 +1,6 @@
 #include "saver.h"
+
+// TODO add file valid judgement
 void savePasswordToFile(string pwd){
     cout << "\nDo you want to save the password? (y/n)" << endl;
     string isYes;

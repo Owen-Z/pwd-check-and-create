@@ -1,9 +1,10 @@
 #include "generator.h"
-
 #include<iostream>
 #include<time.h>
 
 using namespace std;
+
+// TODO add input valid judgement
 
 void initPassword(Password &pwd){
     int min, max;

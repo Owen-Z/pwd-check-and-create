@@ -22,11 +22,19 @@ void showGeneratorFrame(){
     
 }
 
+void showValidatorFrame(){
+    system("clear");
+    cout << "\t-------------------------------------------\n\n";
+    cout << "\t            password validator \n\n";
+    cout << "\t-------------------------------------------\n\n";
+}
+
 void showSavePasswordFrame(string pwd){
     system("clear");
     cout << "\t-------------------------------------------\n\n";
     cout << "\t            password generator \n\n";
     cout << "\t-------------------------------------------\n\n";
     cout << "\tThe generated password is:  " << pwd;
-    
 }
+
+

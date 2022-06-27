@@ -237,12 +237,12 @@ CMakeFiles/NightlyConfigure.dir/clean:
 CMakeFiles/pwd-program.dir/all:
 	$(MAKE) -f CMakeFiles/pwd-program.dir/build.make CMakeFiles/pwd-program.dir/depend
 	$(MAKE) -f CMakeFiles/pwd-program.dir/build.make CMakeFiles/pwd-program.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zy/Desktop/myproject/pwd-program/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target pwd-program"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zy/Desktop/myproject/pwd-program/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target pwd-program"
 .PHONY : CMakeFiles/pwd-program.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pwd-program.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zy/Desktop/myproject/pwd-program/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zy/Desktop/myproject/pwd-program/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pwd-program.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zy/Desktop/myproject/pwd-program/build/CMakeFiles 0
 .PHONY : CMakeFiles/pwd-program.dir/rule

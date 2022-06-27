@@ -4,6 +4,7 @@
 #include "password.h"
 #include "generator.h"
 #include "saver.h"
+#include "validator.h"
 
 using namespace std;
 
@@ -20,16 +21,13 @@ int main(){
         Password pwd;
         initPassword(pwd);
         strOfPwd = generatorPassword(pwd);
-
+        showSavePasswordFrame(strOfPwd);
+        savePasswordToFile(strOfPwd);
     }else if(funcNum == 2){
-
+        showValidatorFrame();
+        Password pwd;
+        validatePwd();
     }
-
-    showSavePasswordFrame(strOfPwd);
-    savePasswordToFile(strOfPwd);
-
-
-
 
     return 0;
 }
