@@ -2,6 +2,7 @@
 #include<stdio.h>
 #include<iostream>
 
+
 using namespace std;
 
 
@@ -18,5 +19,14 @@ void showGeneratorFrame(){
     cout << "\t-------------------------------------------\n\n";
     cout << "\t            password generator \n\n";
     cout << "\t-------------------------------------------\n\n";
+    
+}
+
+void showSavePasswordFrame(string pwd){
+    system("clear");
+    cout << "\t-------------------------------------------\n\n";
+    cout << "\t            password generator \n\n";
+    cout << "\t-------------------------------------------\n\n";
+    cout << "\tThe generated password is:  " << pwd;
     
 }

@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/pwd-program.dir/interface.cpp.o"
   "CMakeFiles/pwd-program.dir/main.cpp.o"
   "CMakeFiles/pwd-program.dir/password.cpp.o"
+  "CMakeFiles/pwd-program.dir/saver.cpp.o"
   "pwd-program"
   "pwd-program.pdb"
 )

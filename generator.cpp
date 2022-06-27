@@ -48,25 +48,25 @@ int setNumOfKindsPassword(int *numOfKind, bool hasKind, int *remainLength){
 
 char randNum(){
     srand(rand());
-    char c = rand() % 49 + 57;
+    char c = rand() % 10 + 48;
     return c;
 }
 
 char randLowLetter(){
     srand(rand());
-    char c = rand() % 123 + 97;
+    char c = rand() % 26 + 97;
     return c;
 }
 
 char randHighLetter(){
     srand(rand());
-    char c = rand() % 91 + 65;
+    char c = rand() % 26 + 65;
     return c;
 }
 
 char randSpec(){
     srand(rand());
-    char c = rand() % 34 + 47;
+    char c = rand() % 14 + 34;
     return c;
 }
 
@@ -94,8 +94,6 @@ void setEachIndexOfPwd(string &pwd, int* numOfKind){
             kind = rand() % 4;
         }
     }
-
-    cout << pwd;
 }
 
 string generatorPassword(Password &pwd){

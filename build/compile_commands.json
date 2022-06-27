@@ -18,5 +18,10 @@
   "directory": "/home/zy/Desktop/myproject/pwd-program/build",
   "command": "/usr/bin/g++    -g   -o CMakeFiles/pwd-program.dir/password.cpp.o -c /home/zy/Desktop/myproject/pwd-program/password.cpp",
   "file": "/home/zy/Desktop/myproject/pwd-program/password.cpp"
+},
+{
+  "directory": "/home/zy/Desktop/myproject/pwd-program/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/pwd-program.dir/saver.cpp.o -c /home/zy/Desktop/myproject/pwd-program/saver.cpp",
+  "file": "/home/zy/Desktop/myproject/pwd-program/saver.cpp"
 }
 ]

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/zy/Desktop/myproject/pwd-program/interface.cpp" "/home/zy/Desktop/myproject/pwd-program/build/CMakeFiles/pwd-program.dir/interface.cpp.o"
   "/home/zy/Desktop/myproject/pwd-program/main.cpp" "/home/zy/Desktop/myproject/pwd-program/build/CMakeFiles/pwd-program.dir/main.cpp.o"
   "/home/zy/Desktop/myproject/pwd-program/password.cpp" "/home/zy/Desktop/myproject/pwd-program/build/CMakeFiles/pwd-program.dir/password.cpp.o"
+  "/home/zy/Desktop/myproject/pwd-program/saver.cpp" "/home/zy/Desktop/myproject/pwd-program/build/CMakeFiles/pwd-program.dir/saver.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

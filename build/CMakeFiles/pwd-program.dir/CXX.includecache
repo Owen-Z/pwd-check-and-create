@@ -6,19 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/zy/Desktop/myproject/pwd-program/generator.cpp
-generator.h
-/home/zy/Desktop/myproject/pwd-program/generator.h
-iostream
--
-time.h
--
+/home/zy/Desktop/myproject/pwd-program/saver.cpp
+saver.h
+/home/zy/Desktop/myproject/pwd-program/saver.h
 
-/home/zy/Desktop/myproject/pwd-program/generator.h
-password.h
-/home/zy/Desktop/myproject/pwd-program/password.h
+/home/zy/Desktop/myproject/pwd-program/saver.h
 string
 -
-
-/home/zy/Desktop/myproject/pwd-program/password.h
+iostream
+-
+fstream
+-
 

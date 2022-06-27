@@ -628,6 +628,33 @@ password.cpp.s:
 	$(MAKE) -f CMakeFiles/pwd-program.dir/build.make CMakeFiles/pwd-program.dir/password.cpp.s
 .PHONY : password.cpp.s
 
+saver.o: saver.cpp.o
+
+.PHONY : saver.o
+
+# target to build an object file
+saver.cpp.o:
+	$(MAKE) -f CMakeFiles/pwd-program.dir/build.make CMakeFiles/pwd-program.dir/saver.cpp.o
+.PHONY : saver.cpp.o
+
+saver.i: saver.cpp.i
+
+.PHONY : saver.i
+
+# target to preprocess a source file
+saver.cpp.i:
+	$(MAKE) -f CMakeFiles/pwd-program.dir/build.make CMakeFiles/pwd-program.dir/saver.cpp.i
+.PHONY : saver.cpp.i
+
+saver.s: saver.cpp.s
+
+.PHONY : saver.s
+
+# target to generate assembly for a file
+saver.cpp.s:
+	$(MAKE) -f CMakeFiles/pwd-program.dir/build.make CMakeFiles/pwd-program.dir/saver.cpp.s
+.PHONY : saver.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -680,6 +707,9 @@ help:
 	@echo "... password.o"
 	@echo "... password.i"
 	@echo "... password.s"
+	@echo "... saver.o"
+	@echo "... saver.i"
+	@echo "... saver.s"
 .PHONY : help
 
 
