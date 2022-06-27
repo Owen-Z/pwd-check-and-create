@@ -18,7 +18,7 @@ int main(){
         Password pwd;
         initPassword(pwd);
         string strOfPwd;
-        
+        strOfPwd = generatorPassword(pwd);
     }else if(funcNum == 2){
 
     }

@@ -11,30 +11,14 @@ generator.h
 /home/zy/Desktop/myproject/pwd-program/generator.h
 iostream
 -
+time.h
+-
 
 /home/zy/Desktop/myproject/pwd-program/generator.h
 password.h
 /home/zy/Desktop/myproject/pwd-program/password.h
-
-/home/zy/Desktop/myproject/pwd-program/interface.h
-
-/home/zy/Desktop/myproject/pwd-program/main.cpp
-stdio.h
+string
 -
-iostream
--
-interface.h
-/home/zy/Desktop/myproject/pwd-program/interface.h
-password.h
-/home/zy/Desktop/myproject/pwd-program/password.h
-generator.h
-/home/zy/Desktop/myproject/pwd-program/generator.h
-
-/home/zy/Desktop/myproject/pwd-program/password.cpp
-stdio.h
--
-password.h
-/home/zy/Desktop/myproject/pwd-program/password.h
 
 /home/zy/Desktop/myproject/pwd-program/password.h
 

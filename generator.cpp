@@ -1,6 +1,7 @@
 #include "generator.h"
 
 #include<iostream>
+#include<time.h>
 
 using namespace std;
 
@@ -29,11 +30,95 @@ void initPassword(Password &pwd){
     pwd.setAttributes(min, max, hasNum, hasLow, hasUpper, hasSpec);
 }
 
+int judgeNeeded(bool attr){
+    return attr == true ? 1 : 0;
+}
+
+int setNumOfKindsPassword(int *numOfKind, bool hasKind, int *remainLength){
+    if(hasKind){
+        if(*numOfKind == 1) return *remainLength;
+        int currentKindLength = rand() % (*remainLength - *numOfKind + 1) + 1;
+        (*numOfKind)--;
+        *remainLength = *remainLength - currentKindLength;
+        return currentKindLength;
+    }
+
+    return 0;
+}
+
+char randNum(){
+    srand(rand());
+    char c = rand() % 49 + 57;
+    return c;
+}
+
+char randLowLetter(){
+    srand(rand());
+    char c = rand() % 123 + 97;
+    return c;
+}
+
+char randHighLetter(){
+    srand(rand());
+    char c = rand() % 91 + 65;
+    return c;
+}
+
+char randSpec(){
+    srand(rand());
+    char c = rand() % 34 + 47;
+    return c;
+}
+
+char randIndexContent(int kind){
+    if(kind == 0) return randNum();
+    if(kind == 1) return randLowLetter();
+    if(kind == 2) return randHighLetter();
+    if(kind == 3) return randSpec();
+    return 'n';
+}
+
+
+void setEachIndexOfPwd(string &pwd, int* numOfKind){
+    srand(rand());
+    for(int i = 0; i < pwd.length(); ++i){
+        int kind = rand() % 4;
+        time_t startTime = time(NULL);
+        while(time(NULL) - startTime < 2){
+            srand(rand());
+            if(*(numOfKind + kind) > 0){
+                pwd[i] = randIndexContent(kind);
+                *(numOfKind + kind) = *(numOfKind + kind) - 1;
+                break;
+            }
+            kind = rand() % 4;
+        }
+    }
+
+    cout << pwd;
+}
+
 string generatorPassword(Password &pwd){
     srand(time(nullptr));
 
     // set the password length
-    int length = pwd.getMin() + rand() % (pwd.getMax() - pwd.getMin());
+    int length = pwd.getMin() + rand() % (pwd.getMax() - pwd.getMin() + 1);
+    int startLength = length;
 
+    // set the number of needed kind number
+    int numOfKindNeeded = 0;
+    numOfKindNeeded += judgeNeeded(pwd.hasLow()) + judgeNeeded(pwd.hasUpper()) 
+                        + judgeNeeded(pwd.hasNum()) + judgeNeeded(pwd.hasSpec());
     
+    int kindsLength[4]{setNumOfKindsPassword(&numOfKindNeeded, pwd.hasNum(), &length),
+                        setNumOfKindsPassword(&numOfKindNeeded, pwd.hasLow(), &length),
+                        setNumOfKindsPassword(&numOfKindNeeded, pwd.hasUpper(), &length),
+                        setNumOfKindsPassword(&numOfKindNeeded, pwd.hasSpec(), &length)};
+    
+    string createdPassword(startLength, 'n');
+    setEachIndexOfPwd(createdPassword, kindsLength);
+    return createdPassword;
 }
+
+
+
