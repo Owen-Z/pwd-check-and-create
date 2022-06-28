@@ -29,3 +29,8 @@ using
 ## compare char and string item
 
 string[] equivlent to a char;
+
+## fstream can't seek to the end of file
+
+1.when open the fstrem should add ios::in attribute
+2.using ios::app attribute

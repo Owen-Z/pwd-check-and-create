@@ -1,32 +1,32 @@
 [
 {
   "directory": "/home/zy/Desktop/myproject/pwd-program/build",
-  "command": "/usr/bin/g++    -g   -o CMakeFiles/pwd-program.dir/main.cpp.o -c /home/zy/Desktop/myproject/pwd-program/main.cpp",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/pwd-program.dir/main.cpp.o -c /home/zy/Desktop/myproject/pwd-program/main.cpp",
   "file": "/home/zy/Desktop/myproject/pwd-program/main.cpp"
 },
 {
   "directory": "/home/zy/Desktop/myproject/pwd-program/build",
-  "command": "/usr/bin/g++    -g   -o CMakeFiles/pwd-program.dir/generator.cpp.o -c /home/zy/Desktop/myproject/pwd-program/generator.cpp",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/pwd-program.dir/generator.cpp.o -c /home/zy/Desktop/myproject/pwd-program/generator.cpp",
   "file": "/home/zy/Desktop/myproject/pwd-program/generator.cpp"
 },
 {
   "directory": "/home/zy/Desktop/myproject/pwd-program/build",
-  "command": "/usr/bin/g++    -g   -o CMakeFiles/pwd-program.dir/interface.cpp.o -c /home/zy/Desktop/myproject/pwd-program/interface.cpp",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/pwd-program.dir/interface.cpp.o -c /home/zy/Desktop/myproject/pwd-program/interface.cpp",
   "file": "/home/zy/Desktop/myproject/pwd-program/interface.cpp"
 },
 {
   "directory": "/home/zy/Desktop/myproject/pwd-program/build",
-  "command": "/usr/bin/g++    -g   -o CMakeFiles/pwd-program.dir/password.cpp.o -c /home/zy/Desktop/myproject/pwd-program/password.cpp",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/pwd-program.dir/password.cpp.o -c /home/zy/Desktop/myproject/pwd-program/password.cpp",
   "file": "/home/zy/Desktop/myproject/pwd-program/password.cpp"
 },
 {
   "directory": "/home/zy/Desktop/myproject/pwd-program/build",
-  "command": "/usr/bin/g++    -g   -o CMakeFiles/pwd-program.dir/saver.cpp.o -c /home/zy/Desktop/myproject/pwd-program/saver.cpp",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/pwd-program.dir/saver.cpp.o -c /home/zy/Desktop/myproject/pwd-program/saver.cpp",
   "file": "/home/zy/Desktop/myproject/pwd-program/saver.cpp"
 },
 {
   "directory": "/home/zy/Desktop/myproject/pwd-program/build",
-  "command": "/usr/bin/g++    -g   -o CMakeFiles/pwd-program.dir/validator.cpp.o -c /home/zy/Desktop/myproject/pwd-program/validator.cpp",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/pwd-program.dir/validator.cpp.o -c /home/zy/Desktop/myproject/pwd-program/validator.cpp",
   "file": "/home/zy/Desktop/myproject/pwd-program/validator.cpp"
 }
 ]

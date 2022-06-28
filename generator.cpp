@@ -4,29 +4,32 @@
 
 using namespace std;
 
-// TODO add input valid judgement
+bool judgeInput(){
+    string temp;
+    cin >> temp;
+    while(temp != "y" && temp != "n"){
+        cout << "please 'y' or 'n'\n";
+        cin >> temp;
+    }
+    return temp == "y" ? true : false;
+}
 
 void initPassword(Password &pwd){
     int min, max;
     bool hasNum = false, hasLow = false, hasUpper = false, hasSpec = false;
-    char temp;
     cout << "please select your password request below\n";
     cout << "please enter the minimum length of your password: ";
     cin >> min;
     cout << endl << "please enter the maxmimum length of your password: ";
     cin >> max;
     cout << endl << "the password need number? (y / n)\n";
-    cin >> temp;
-    hasNum = (temp == 'y' ? true : false);
+    hasNum = judgeInput();
     cout << endl << "the password need lowercase letter? (y / n)\n";
-    cin >> temp;
-    hasLow = (temp == 'y' ? true : false);
+    hasLow = judgeInput();
     cout << endl << "the password need uppercase letter? (y / n)\n";
-    cin >> temp;
-    hasUpper = (temp == 'y' ? true : false);
+    hasUpper = judgeInput();
     cout << endl << "the password need sepcial? (y / n)\n";
-    cin >> temp;
-    hasSpec = (temp == 'y' ? true : false);
+    hasSpec = judgeInput();
 
     pwd.setAttributes(min, max, hasNum, hasLow, hasUpper, hasSpec);
 }

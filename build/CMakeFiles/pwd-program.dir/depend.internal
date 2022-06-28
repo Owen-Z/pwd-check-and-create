@@ -6,15 +6,15 @@ CMakeFiles/pwd-program.dir/generator.cpp.o
  /home/zy/Desktop/myproject/pwd-program/generator.h
  /home/zy/Desktop/myproject/pwd-program/password.h
 CMakeFiles/pwd-program.dir/interface.cpp.o
+ /home/zy/Desktop/myproject/pwd-program/generator.h
  /home/zy/Desktop/myproject/pwd-program/interface.cpp
  /home/zy/Desktop/myproject/pwd-program/interface.h
-CMakeFiles/pwd-program.dir/main.cpp.o
- /home/zy/Desktop/myproject/pwd-program/generator.h
- /home/zy/Desktop/myproject/pwd-program/interface.h
- /home/zy/Desktop/myproject/pwd-program/main.cpp
  /home/zy/Desktop/myproject/pwd-program/password.h
  /home/zy/Desktop/myproject/pwd-program/saver.h
  /home/zy/Desktop/myproject/pwd-program/validator.h
+CMakeFiles/pwd-program.dir/main.cpp.o
+ /home/zy/Desktop/myproject/pwd-program/interface.h
+ /home/zy/Desktop/myproject/pwd-program/main.cpp
 CMakeFiles/pwd-program.dir/password.cpp.o
  /home/zy/Desktop/myproject/pwd-program/password.cpp
  /home/zy/Desktop/myproject/pwd-program/password.h

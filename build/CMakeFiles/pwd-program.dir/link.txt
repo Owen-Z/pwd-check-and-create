@@ -1,1 +1,1 @@
-/usr/bin/g++  -g  -rdynamic CMakeFiles/pwd-program.dir/main.cpp.o CMakeFiles/pwd-program.dir/generator.cpp.o CMakeFiles/pwd-program.dir/interface.cpp.o CMakeFiles/pwd-program.dir/password.cpp.o CMakeFiles/pwd-program.dir/saver.cpp.o CMakeFiles/pwd-program.dir/validator.cpp.o  -o pwd-program 
+/usr/bin/g++  -g   CMakeFiles/pwd-program.dir/main.cpp.o CMakeFiles/pwd-program.dir/generator.cpp.o CMakeFiles/pwd-program.dir/interface.cpp.o CMakeFiles/pwd-program.dir/password.cpp.o CMakeFiles/pwd-program.dir/saver.cpp.o CMakeFiles/pwd-program.dir/validator.cpp.o  -o pwd-program 

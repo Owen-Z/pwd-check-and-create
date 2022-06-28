@@ -1,0 +1,5 @@
+1. add enter valid judgement
+2. save the password in the plain area instead of overriding the exist file
+3. let the user can return to main frame 
+4. test the function 
+
